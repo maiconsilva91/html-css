@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url(../_fonts/PressStart2P-Regular.ttf);
+    /*fonte local, arquivo da fonte no Localhost*/
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba( 0, 0, 0, 1)
+}
+
+h1 {
+    font-family: 'Press Start 2P';
+    color: rgba( 24, 97, 126, 1);
+    font-size: 1.5em;
+}
+
+h2 {
+    font: italic bold 1.5em Times New Roma, Times, serif;
+    /* Definir os valor da fonte em um único atributo (shorthand - 1º font-style, 2º font-variant, 3º font-weight, 4º font-size/line-height, 5º font-family) */
+    color: rgba( 36, 171, 126, 1);
+}
+
+h3 {
+    font-family: 'Monoton', cursive;
+    font-size: 1em;
+    color: rgba( 48, 199, 144, 1);
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}

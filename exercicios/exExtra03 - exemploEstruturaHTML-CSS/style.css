@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/* Color: tonFraco( #edeec9, #dde7c7, #bfd8bd, #98c9a3, #77bfa3 )TonForte */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #edeec9;
+    margin: 0px;
+}
+
+header {
+    background-color: #bfd8bd;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav {
+   background-color: #98c9a3;
+   padding: 3px; 
+   box-shadow: 5px 3px 7px 1px rgba( 0, 0, 0, 0.489);
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 25px;
+}
+nav a:hover {
+    transition: 0.7s;
+    text-decoration: underline;
+    color: #000000;
+}
+
+main {
+    background-color: #bfd8bd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px 0px;
+    box-shadow: 4px 4px 9px 0px rgba( 0, 0, 0, 0.489);
+}
+
+article {
+    background-color: #98c9a3;
+    padding: 5px;
+}
+
+article > aside {
+    background-color: #77bfa3;
+}
+
+footer {
+    background-color: #bfd8bd;
+    color: #fff;
+    text-align: center;
+    padding: 4px;
+}
+
+footer > p {
+    margin: 0px;
+    text-shadow: 1px 1px 1px #00000085;
+}

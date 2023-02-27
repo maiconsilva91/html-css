@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Notas - Desafio 14</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption {
+            background-color: #000;
+            color: #fff;
+            padding: 5px;
+            border-radius: 8px 8px 0 0;
+            font-weight: bold;
+        }
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        
+        }
+        thead {
+            background-color: #808080;
+            color: #fff;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 5px;
+            text-align: center;
+        }
+        /* tbody > tr > th:nth-child(1n+1) {
+            background-color: aqua; 
+        }*/
+        .medianota {
+            text-align: left;
+            color: #fff;
+            background-color: #808080;
+        }
+        .medianotaresult {
+            background-color: #808080;
+            color: #fff;
+        }
+        .left {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Desafio 14</h1>
+
+    <table>
+        <caption>Tabela  de Notas</caption>
+        
+        <thead>
+            <tr>
+                <th scope="col" rowspan="2">Área</th>
+                <th scope="col" rowspan="2">Disciplina</th>
+                <th scope="colgroup" colspan="2">Notas</th>
+                <th scope="col" rowspan="2">Média</th>
+            </tr>
+            <tr>
+               <th scope="col">Nota 1</th> 
+               <th scope="col">Nota 2</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="4">Exatas</th>
+                <td class="left">Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="left">Física</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="left">Química</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="left">Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th scope="row" colspan="4" class="medianota">Média de Exatas</th>
+                <td class="medianotaresult">0.0</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="2">Humanas</th>
+                <td class="left">História</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="left">Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th scope="row" colspan="4" class="medianota">Média de Humanas</th>
+                <td class="medianotaresult">0.0</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

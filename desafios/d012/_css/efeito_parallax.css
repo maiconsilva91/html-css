@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@font-face {
+    font-family: 'Sriracha';
+    src: url("../_fonts/Sriracha-Regular.ttf");
+}
+
+:root {
+    --fontOne:  Verdana, Geneva, Tahoma, sans-serif;
+    --fontTwo: 'Passion One', cursive;
+    --fontTree: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-image: linear-gradient(180deg, #fff, #888, #000);
+    font-family: var(--fontOne);
+}
+
+/* Cabeçalho */
+header {
+    background-color: #000;
+    color: aliceblue;
+    text-align: center;
+}
+header > h1 {
+    padding: 50px 0px 0px 0px;
+    font-variant: small-caps;
+    font-family: var(--fontTwo);
+    font-size: 10vw;
+}
+header > p {
+    padding: 0px 0px 50px 0px;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bolder;
+}
+a:hover {
+    text-decoration: underline;
+} /* link ancora config. pra header e para footer*/
+
+/* Conteúdo */
+section {
+    padding: 5vh 0 5vh 30px;
+    line-height: 2em;
+    font-family: var(--fontTree);
+    font-size: 4.5vw;
+}
+
+section.paragrafo {
+    background-color: aliceblue;
+    color: #000;
+ }
+ section.paragrafo > p {
+    padding: 0 0 2em 20px;
+ }
+
+ section.imagem {
+    box-shadow: inset 6px 6px 13px 0px rgba( 0, 0, 0, 1);
+ }
+
+section.imagem > p {
+    display: inline-block;
+    background-color: rgba( 0, 0, 0, 0.487);
+    color: aliceblue;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+}
+
+section#img01 {
+    background: #000 url('../_imagens/background001.jpg') right center no-repeat fixed;
+    background-size: cover;
+}
+
+section#img02 {
+    background: #000 url('../_imagens/background002.jpg') right center no-repeat fixed;
+    background-size: cover;
+}
+
+/* Rodapé */
+footer {
+    background-color: #000;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
