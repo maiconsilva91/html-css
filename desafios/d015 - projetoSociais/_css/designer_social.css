@@ -40,26 +40,29 @@ iframe#tela {
     border-radius: 2px;
 
 }
-ul {
+section#redes-sociais ul {
     float: right;
     padding-top: 20px;
-    height: 500px;
-    width: 80px;
-    border: 1px dashed #fff;
+    height: 400px;
+    width: 70px;
     list-style: none;
+    text-align: center;
 }
 
-ul > li {
-    padding: 10px;
+section#redes-sociais ul > li {
+    padding: 5px;
 }
 
-img {
-    border-radius: 50%;
+/* section#redes-sociais {
+    text-align: right;
+} */
+
+section#redes-sociais img {
     width: 50px;
-    border: 2px solid #fff;
-    
+    border-radius: 50%;
+    border: 2px solid #fff; 
 }
-img:hover {
+section#redes-sociais img:hover {
     border: 2px solid #000;
     transform: translate( -3px, -3px);
     transition: transform 0.5s, border 0.6s;
