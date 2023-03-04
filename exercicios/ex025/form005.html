@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício - Formulário 005 </title>
+</head>
+<body>
+    <h1>Formulário 005 - Checkbox ans Radio</h1>
+    <form action="cadastro.php">
+        <fieldset>
+            <legend>Sexo</legend>
+            <label for="imasc">
+                <input type="radio" name="sexo" id="imasc"> Masculino 
+            </label> <br>
+            <label for="ifem">
+                <input type="radio" name="sexo" id="ifem" checked> Feminino
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Games</legend>
+            <label for="igtav">
+                <input type="checkbox" name="gtav" id="igtav"> GTA V
+            </label> <br>
+
+            <label for="ifarcry5">
+                <input type="checkbox" name="Far Cry 5" id="ifarcry5" checked> Far Cry 5
+            </label>  <br>
+            
+            <label for="icodwarzone">
+                <input type="checkbox" name="codwarzone" id="icodwarzone"> COD: War Zone
+            </label>  <br>
+            
+            <label for="icyberpunk2077">
+                <input type="checkbox" name="cyberpunk2077" id="icyberpunk2077" checked> Cyberpunk 2077
+            </label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
