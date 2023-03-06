@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
-/* Configurações: Modo horizontal */
+/* Configurações: Modo horizontal (landscape) */
+
+body {
+    background-image: url('../_imagens/cev-landscape.jpg');
+    background-position: left bottom;
+}
