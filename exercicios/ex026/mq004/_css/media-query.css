@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+/* Todas as demais mídias */
+
+/* 
+- Mobile devices – 320px — 480px.
+- iPads, Tablets – 481px — 768px.
+- Small screens, laptops – 769px — 1024px.
+- Desktops, large screens – 1025px — 1200px.
+- Extra large screens, TV – 1201px, and more.
+ */
+
+ /* Impressora */
+ @media print {
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main {
+        border: 2px solid #000;
+    }
+
+    main > h1 {
+        text-shadow: none;
+        color: #000;
+    }
+    /* Smartphone */
+    img#phone {display: none;}
+    /* Tablet */
+    img#tablet {display: none;}
+    /* Print */
+    img#print {display: block;}
+    /* Desktop */
+    img#desktop {display: none;}
+    /* Television */
+    img#tv {display: none;}
+ }
+
+ /* Tablet */
+ @media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background: #000 url('../_imagens/back-tablet.jpg') center center no-repeat;
+        background-size: cover;
+    }
+    /* Smartphone */
+    img#phone {display: none;}
+    /* Tablet */
+    img#tablet {display: block;}
+    /* Print */
+    img#print {display: none;}
+    /* Desktop */
+    img#desktop {display: none;}
+    /* Television */
+    img#tv {display: none;}
+ }
+
+ /* Desktop */
+ @media screen and (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background: #000 url('../_imagens/back-pc.jpg') center center no-repeat;
+        background-size: cover;
+        }
+    /* Smartphone */
+    img#phone {display: none;}
+    /* Tablet */
+    img#tablet {display: none;}
+    /* Print */
+    img#print {display: none;}
+    /* Desktop */
+    img#desktop {display: block;}
+    /* Television */
+    img#tv {display: none;}
+    }
+
+ /* Television */
+ @media screen and (min-width: 1200px) {
+    body {
+        background: #000 url('../_imagens/back-tv.jpg') center center no-repeat;
+        background-size: cover;
+    }
+    /* Smartphone */
+    img#phone {display: none;}
+    /* Tablet */
+    img#tablet {display: none;}
+    /* Print */
+    img#print {display: none;}
+    /* Desktop */
+    img#desktop {display: none;}
+    /* Television */
+    img#tv {display: block;}
+ }
