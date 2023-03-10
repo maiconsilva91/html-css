@@ -32,12 +32,18 @@
     }  
     
     section > article#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     section > article#formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+    article#formulario h1 {
+        font-size: 2em;
+    }
+    article#formulario p {
+        font-size: 1.2em;
     }   
 }

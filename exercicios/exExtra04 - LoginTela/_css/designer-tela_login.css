@@ -51,3 +51,16 @@ section > article#formulario {
     display: block;
     padding: 10px;
 }
+
+article#formulario {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+article#formulario p {
+    font-size: 0.8em;
+}
+
+div#botoes input {
+    padding: 10px;
+}
