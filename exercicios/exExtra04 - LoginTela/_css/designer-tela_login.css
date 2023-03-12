@@ -85,10 +85,14 @@ form div.campo > input {
     padding: 3px;
     border: 2px solid transparent;
     border-radius: 3px;
+    outline: none;
     width: calc(100% - 60px); /* para calcular o medidas em css */
     transform: translateY(-12px);
 }
 form div.campo > input:hover {
+    border: 2px solid #49a09d;
+}
+form div.campo > input:focus {
     border: 2px solid #49a09d;
 }
 
